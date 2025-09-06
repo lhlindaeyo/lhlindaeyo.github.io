@@ -9,7 +9,7 @@ collections:
   # Professors
   - name: "professors"
     label: "Professors"
-    file: "lab/data/members/professor.json"
+    file: "lab/data/members/professors.json"
     fields:
       - { name: "name", label: "Name", widget: "string" }
       - { name: "title", label: "Title", widget: "string" }
