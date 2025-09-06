@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Mirang Kim",
+    "title": "Professor",
+    "education": ["Ph.D. in Functional genomics,  University of Science & Technology (UST)", "M.S. in  Biochemistry, Yonsei University", "B.S. in Biochemistry, Yeungnam University "],
+    "experience": "Professor at Chungnam National University (2015–Present)",
+    "image": "assets/images/professors/kim.jpg"
+  }
+]

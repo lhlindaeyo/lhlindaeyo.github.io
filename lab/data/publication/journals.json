@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Epigenetic regulation in cancer cells",
+    "authors": ["Kim M.", "Lee Y.", "Park M."],
+    "journal": "Nature Genetics",
+    "year": 2022,
+    "link": "https://doi.org/xxxx"
+  },
+  {
+    "title": "Genome-wide analysis of methylation patterns",
+    "authors": ["Choi H.", "Jung M."],
+    "journal": "Cell Reports",
+    "year": 2023,
+    "link": "https://doi.org/yyyy"
+  }
+]

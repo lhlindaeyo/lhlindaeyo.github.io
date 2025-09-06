@@ -1,0 +1,16 @@
+[
+  {
+    "title": "AI-driven Epigenome Analysis",
+    "description": "Developing machine learning models to analyze methylation patterns in cancer genomics.",
+    "members": ["Kim M.", "Lee Y."],
+    "year": 2024,
+    "image": "assets/images/projects/epigenome_ai.jpg"
+  },
+  {
+    "title": "Precision Medicine Platform",
+    "description": "Building a data-driven platform for personalized cancer therapy.",
+    "members": ["Choi H.", "Park M."],
+    "year": 2025,
+    "image": "assets/images/projects/precision_medicine.jpg"
+  }
+]

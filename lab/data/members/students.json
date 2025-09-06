@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Lee Younghee",
+    "degree": "PhD",
+    "year": 3,
+    "email": "lee@univ.ac.kr",
+    "image": "assets/images/students/lee.jpg"
+  },
+  {
+    "name": "Park Minsoo",
+    "degree": "Master",
+    "year": 1,
+    "email": "park@univ.ac.kr",
+    "image": "assets/images/students/park.jpg"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Choi Hana",
+    "degree": "PhD",
+    "year": 2020,
+    "email": "hana.choi@company.com",
+    "image": "assets/images/alumni/choi.jpg"
+  },
+  {
+    "name": "Jung Minho",
+    "degree": "Master",
+    "year": 2021,
+    "email": "minho.jung@company.com",
+    "image": "assets/images/alumni/jung.jpg"
+  }
+]
