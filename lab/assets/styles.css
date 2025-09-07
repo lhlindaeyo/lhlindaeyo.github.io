@@ -15,6 +15,11 @@ body, html {
   padding: 60px;
   position: relative;
 }
+.hero-text {
+  width: 100%;
+  text-align: left;      /* 텍스트를 왼쪽 정렬 */
+  padding-left: 80px;    /* 왼쪽에서 띄우기 */
+}
 
 .navbar {
   position: fixed;
