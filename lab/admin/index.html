@@ -6,10 +6,11 @@
   </head>
   <body>
     <!-- Netlify CMS 불러오기 -->
-    <script src="https://unpkg.com/netlify-cms-app/dist/netlify-cms.js"></script>
+    <script src="https://unpkg.com/netlify-cms-app@^2.0.0/dist/netlify-cms.js"></script>
     <script>
-      // Netlify CMS 초기화 (lab/admin/config.json 불러오기)
-      CMS.init({ config: '/admin/config.json' });
+      window.addEventListener("DOMContentLoaded", function () {
+        CMS.init({ config: '/admin/config.json' });
+      });
     </script>
   </body>
 </html>
