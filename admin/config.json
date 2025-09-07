@@ -1,0 +1,122 @@
+{
+  "backend": {
+    "name": "git-gateway",
+    "branch": "main"
+  },
+  "media_folder": "lab/assets/images",
+  "public_folder": "/assets/images",
+  "collections": [
+    {
+      "name": "professors",
+      "label": "Professors",
+      "file": "lab/data/members/professors.json",
+      "fields": [
+        { "name": "name", "label": "Name", "widget": "string" },
+        { "name": "title", "label": "Title", "widget": "string" },
+        {
+          "name": "education",
+          "label": "Education",
+          "widget": "list",
+          "fields": [
+            { "name": "degree", "label": "Degree", "widget": "string" }
+          ]
+        },
+        { "name": "experience", "label": "Professional Experience", "widget": "text" },
+        { "name": "image", "label": "Photo", "widget": "image" }
+      ]
+    },
+    {
+      "name": "students",
+      "label": "Students",
+      "file": "lab/data/members/students.json",
+      "fields": [
+        { "name": "name", "label": "Name", "widget": "string" },
+        { "name": "degree", "label": "Degree", "widget": "select", "options": ["PhD", "Master", "Undergraduate"] },
+        { "name": "year", "label": "Year", "widget": "number" },
+        { "name": "email", "label": "Email", "widget": "string" },
+        { "name": "image", "label": "Photo", "widget": "image" }
+      ]
+    },
+    {
+      "name": "alumni",
+      "label": "Alumni",
+      "file": "lab/data/members/alumni.json",
+      "fields": [
+        { "name": "name", "label": "Name", "widget": "string" },
+        { "name": "degree", "label": "Degree", "widget": "string" },
+        { "name": "year", "label": "Year", "widget": "number" },
+        { "name": "email", "label": "Email", "widget": "string", "required": false },
+        { "name": "image", "label": "Photo", "widget": "image", "required": false }
+      ]
+    },
+    {
+      "name": "journals",
+      "label": "Journal Publications",
+      "file": "lab/data/publications/journals.json",
+      "fields": [
+        { "name": "title", "label": "Title", "widget": "string" },
+        {
+          "name": "authors",
+          "label": "Authors",
+          "widget": "list",
+          "fields": [
+            { "name": "author", "label": "Author", "widget": "string" }
+          ]
+        },
+        { "name": "journal", "label": "Journal", "widget": "string" },
+        { "name": "year", "label": "Year", "widget": "number" },
+        { "name": "link", "label": "Link", "widget": "string", "required": false }
+      ]
+    },
+    {
+      "name": "patents",
+      "label": "Patents",
+      "file": "lab/data/publications/patents.json",
+      "fields": [
+        { "name": "title", "label": "Title", "widget": "string" },
+        {
+          "name": "inventors",
+          "label": "Inventors",
+          "widget": "list",
+          "fields": [
+            { "name": "inventor", "label": "Inventor", "widget": "string" }
+          ]
+        },
+        { "name": "year", "label": "Year", "widget": "number" },
+        { "name": "patent_no", "label": "Patent Number", "widget": "string", "required": false },
+        { "name": "link", "label": "Link", "widget": "string", "required": false }
+      ]
+    },
+    {
+      "name": "projects",
+      "label": "Projects",
+      "file": "lab/data/projects.json",
+      "fields": [
+        { "name": "title", "label": "Title", "widget": "string" },
+        { "name": "description", "label": "Description", "widget": "text" },
+        {
+          "name": "members",
+          "label": "Members",
+          "widget": "list",
+          "fields": [
+            { "name": "member", "label": "Member", "widget": "string" }
+          ]
+        },
+        { "name": "year", "label": "Year", "widget": "number" },
+        { "name": "image", "label": "Image", "widget": "image", "required": false }
+      ]
+    },
+    {
+      "name": "contacts",
+      "label": "Contacts",
+      "file": "lab/data/contacts.json",
+      "fields": [
+        { "name": "lab_name", "label": "Lab Name", "widget": "string" },
+        { "name": "address", "label": "Address", "widget": "string" },
+        { "name": "email", "label": "Email", "widget": "string" },
+        { "name": "phone", "label": "Phone", "widget": "string", "required": false },
+        { "name": "map_link", "label": "Map Link", "widget": "string", "required": false }
+      ]
+    }
+  ]
+}
