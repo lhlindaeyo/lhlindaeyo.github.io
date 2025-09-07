@@ -104,3 +104,46 @@ body, html {
   font-size: 2rem;
   margin: 0 10px;
 }
+
+/* Navbar 메뉴 */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menu li {
+  position: relative;
+}
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s;
+}
+
+/* Dropdown 스타일 */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 150px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  z-index: 200;
+}
+.dropdown-content li {
+  list-style: none;
+}
+.dropdown-content a {
+  color: black !important;
+  padding: 10px 15px;
+  display: block;
+}
+.dropdown-content a:hover {
+  background: #f0f0f0;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
