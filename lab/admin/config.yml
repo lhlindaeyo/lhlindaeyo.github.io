@@ -17,7 +17,7 @@ collections:
         label: "Education"
         widget: "list"
         fields:
-      - { name: "degree", label: "Degree", widget: "string" }
+          - { name: "degree", label: "Degree", widget: "string" }
       - { name: "experience", label: "Professional Experience", widget: "text" }
       - { name: "image", label: "Photo", widget: "image" }
 
@@ -80,7 +80,11 @@ collections:
     fields:
       - { name: "title", label: "Title", widget: "string" }
       - { name: "description", label: "Description", widget: "text" }
-      - { name: "members", label: "Members", widget: "list", field: { name: "member", label: "Member", widget: "string" } }
+      - name: "members"
+        label: "Members"
+        widget: "list"
+        fields:
+          - { name: "member", label: "Member", widget: "string" }
       - { name: "year", label: "Year", widget: "number" }
       - { name: "image", label: "Image", widget: "image", required: false }
 
