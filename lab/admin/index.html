@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <title>Lab Admin</title>
-    <!-- Netlify CMS 불러오기 (defer로 로드 완료 후 실행) -->
-    <script src="https://unpkg.com/netlify-cms-app@^2.0.0/dist/netlify-cms.js" defer></script>
+    <!-- Netlify CMS 불러오기 -->
+    <script src="https://unpkg.com/netlify-cms-app@^2.0.0/dist/netlify-cms.js"></script>
   </head>
   <body>
     <script>
       window.addEventListener('DOMContentLoaded', function () {
-        if (window.CMS) {
-          CMS.init({ configPath: '/lab/admin/config.json' });
+        if (window.NetlifyCmsApp) {
+          NetlifyCmsApp.init({ configPath: '/lab/admin/config.json' });
         } else {
-          console.error("CMS is not available");
+          console.error("NetlifyCmsApp is not available");
         }
       });
     </script>
