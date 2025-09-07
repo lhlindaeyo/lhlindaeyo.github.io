@@ -4,17 +4,10 @@
     <meta charset="utf-8" />
     <title>Lab Admin</title>
     <!-- Netlify CMS 불러오기 -->
-    <script src="https://unpkg.com/netlify-cms-app@^2.0.0/dist/netlify-cms.js"></script>
+    <script src="https://unpkg.com/netlify-cms-app@^2.0.0/dist/netlify-cms.js"
+            onload="NetlifyCmsApp.init({ configPath: '/lab/admin/config.json' })">
+    </script>
   </head>
   <body>
-    <script>
-      window.addEventListener('DOMContentLoaded', function () {
-        if (window.NetlifyCmsApp) {
-          NetlifyCmsApp.init({ configPath: '/lab/admin/config.json' });
-        } else {
-          console.error("NetlifyCmsApp is not available");
-        }
-      });
-    </script>
   </body>
 </html>
