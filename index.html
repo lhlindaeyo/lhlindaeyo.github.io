@@ -8,14 +8,14 @@
   <!-- fullPage.js CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="../assets/styles.css">
+  <!-- Custom CSS (root 기준 경로 수정) -->
+  <link rel="stylesheet" href="./lab/assets/styles.css">
 </head>
 <body>
   <!-- 공통 Navbar -->
   <header class="navbar">
     <div class="logo">
-      <img src="../assets/images/logo_white.png" alt="Epigenome Lab Logo">
+      <img src="./lab/assets/images/logo_white.png" alt="Epigenome Lab Logo">
       <span>Epigenome Lab</span>
     </div>
     <nav>
@@ -28,14 +28,14 @@
 
   <div id="fullpage">
     <!-- Section 1: Home -->
-    <div class="section home" style="background-image: url('../assets/images/main.jpg');">
+    <div class="section home" style="background-image: url('./lab/assets/images/main.jpg');">
       <div class="hero-text">
         <h1>Epigenome<br>Laboratory</h1>
       </div>
     </div>
 
     <!-- Section 2: Research Interest -->
-    <div class="section interest" style="background-image: url('../assets/images/interest.jpg');">
+    <div class="section interest" style="background-image: url('./lab/assets/images/interest.jpg');">
       <div class="content-box">
         <h2>Research Interest</h2>
         <p>
@@ -49,9 +49,9 @@
     </div>
 
     <!-- Section 3: Professor -->
-    <div class="section professor" style="background-image: url('../assets/images/professor.jpg');">
+    <div class="section professor" style="background-image: url('./lab/assets/images/professor.jpg');">
       <div class="professor-box">
-        <img src="../assets/images/professors/kim.jpg" alt="Professor Mirang Kim" class="prof-img">
+        <img src="./lab/assets/images/professors/kim.jpg" alt="Professor Mirang Kim" class="prof-img">
         <div class="prof-info">
           <h2>Professor<br>Mirang Kim</h2>
           <p>
@@ -64,7 +64,7 @@
     </div>
 
     <!-- Section 4: Contact -->
-    <div class="section contact" style="background-image: url('../assets/images/contact.jpg');">
+    <div class="section contact" style="background-image: url('./lab/assets/images/contact.jpg');">
       <div class="contact-box">
         <h2>Contact Us</h2>
         <p>
@@ -92,13 +92,14 @@
         const logoText = document.querySelector(".navbar .logo span");
         const links = document.querySelectorAll(".navbar nav a");
 
-        // 홈 섹션은 흰 로고, 나머지는 검은 로고
+        // 홈 섹션: 흰 로고 + 흰 글씨
         if(destination.anchor === "home"){
-          logoImg.src = "../assets/images/logo_white.png";
+          logoImg.src = "./lab/assets/images/logo_white.png";
           logoText.style.color = "#fff";
           links.forEach(a => a.style.color = "#fff");
         } else {
-          logoImg.src = "../assets/images/logo_black.png";
+          // 다른 섹션: 검은 로고 + 검은 글씨
+          logoImg.src = "lab/assets/images/logo_black.png";
           logoText.style.color = "#000";
           links.forEach(a => a.style.color = "#000");
         }
