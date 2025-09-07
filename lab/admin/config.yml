@@ -16,7 +16,8 @@ collections:
       - name: "education"
         label: "Education"
         widget: "list"
-        field: { name: "degree", label: "Degree", widget: "string" }
+        fields:
+      - { name: "degree", label: "Degree", widget: "string" }
       - { name: "experience", label: "Professional Experience", widget: "text" }
       - { name: "image", label: "Photo", widget: "image" }
 
@@ -48,7 +49,11 @@ collections:
     file: "lab/data/publications/journals.json"
     fields:
       - { name: "title", label: "Title", widget: "string" }
-      - { name: "authors", label: "Authors", widget: "list", field: { name: "author", label: "Author", widget: "string" } }
+      - name: "authors"
+        label: "Authors"
+        widget: "list"
+        fields:
+          - { name: "author", label: "Author", widget: "string" }
       - { name: "journal", label: "Journal", widget: "string" }
       - { name: "year", label: "Year", widget: "number" }
       - { name: "link", label: "Link", widget: "string", required: false }
@@ -59,7 +64,11 @@ collections:
     file: "lab/data/publications/patents.json"
     fields:
       - { name: "title", label: "Title", widget: "string" }
-      - { name: "inventors", label: "Inventors", widget: "list", field: { name: "inventor", label: "Inventor", widget: "string" } }
+      - name: "inventors"
+        label: "Inventors"
+        widget: "list"
+        fields:
+          - { name: "inventor", label: "Inventor", widget: "string" }
       - { name: "year", label: "Year", widget: "number" }
       - { name: "patent_no", label: "Patent Number", widget: "string", required: false }
       - { name: "link", label: "Link", widget: "string", required: false }
