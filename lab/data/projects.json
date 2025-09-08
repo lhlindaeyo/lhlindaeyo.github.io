@@ -1,16 +1,89 @@
 [
   {
-    "title": "AI-driven Epigenome Analysis",
-    "description": "Developing machine learning models to analyze methylation patterns in cancer genomics.",
-    "members": ["Kim M.", "Lee Y."],
-    "year": 2024,
-    "image": "assets/images/projects/epigenome_ai.jpg"
+    "title": "바이오 빅데이터 기반 난치성 암 맞춤의약 원천기술 개발",
+    "period": "2025.01.01 – 2025.12.31",
+    "director": "김선영",
+    "funding": ""
   },
   {
-    "title": "Precision Medicine Platform",
-    "description": "Building a data-driven platform for personalized cancer therapy.",
-    "members": ["Choi H.", "Park M."],
-    "year": 2025,
-    "image": "assets/images/projects/precision_medicine.jpg"
+    "title": "In silico 기반 조혈줄기세포 역노화 기술 개발",
+    "period": "2025.05.01 ~ 2026.04.30",
+    "director": "정해용",
+    "funding": ""
+  },
+  {
+    "title": "초소형 고효율 차세대 후성유전체 편집 SMARTor 기술 개발",
+    "period": "2025.03.01 ~ 2026.02.28",
+    "director": "김미랑",
+    "funding": ""
+  },
+  {
+    "title": "히스톤 메틸화효소 EZH2 활성화와 후성유전학적 리프로그래밍에 의한 NASH 발병 기전 규명",
+    "period": "2025.03.01 ~ 2026.02.28",
+    "director": "김미랑",
+    "funding": ""
+  },
+  {
+    "title": "대사이상지방간질환(MASLD) 빅데이터를 활용한 혁신치료기술 개발",
+    "period": "2025.01.01 ~ 2025.12.31",
+    "director": "김미랑",
+    "funding": ""
+  },
+  {
+    "title": "바이오 빅데이터 기반 난치성 암 맞춤의약 원천기술 개발",
+    "period": "2024.01.01 ~ 2024.12.31",
+    "director": "박경찬",
+    "funding": ""
+  },
+  {
+    "title": "히스톤 메틸화효소 EZH2 활성화와 후성유전학적 리프로그래밍에 의한 NASH 발병 기전 규명",
+    "period": "2024.03.01 ~ 2025.02.28",
+    "director": "김미랑",
+    "funding": ""
+  },
+  {
+    "title": "In silico 기반 조혈줄기세포 역노화 기술 개발",
+    "period": "2024.05.01 ~ 2025.04.30",
+    "director": "정해용",
+    "funding": ""
+  },
+  {
+    "title": "대사이상지방간질환(MASLD) 빅데이터를 활용한 혁신치료기술 개발",
+    "period": "2024.07.01 ~ 2024.12.31",
+    "director": "김미랑",
+    "funding": ""
+  },
+  {
+    "title": "DNA 메틸화 기반 NASH 진단 기술 개발",
+    "period": "2023.01.01 ~ 2023.12.31",
+    "director": "김미랑",
+    "funding": ""
+  },{
+    "title": "바이오 빅데이터 기반 난치성 암 맞춤의약 원천기술 개발",
+    "period": "2023.01.01 ~ 2023.12.31",
+    "director": "박경찬",
+    "funding": ""
+  },{
+    "title": "",
+    "period": "",
+    "director": "",
+    "funding": ""
+  },{
+    "title": "",
+    "period": "",
+    "director": "",
+    "funding": ""
+  },
+  {
+    "title": "",
+    "period": "",
+    "director": "",
+    "funding": ""
+  },
+  {
+    "title": "",
+    "period": "",
+    "director": "",
+    "funding": ""
   }
 ]

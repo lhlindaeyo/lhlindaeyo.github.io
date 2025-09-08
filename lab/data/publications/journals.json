@@ -28,17 +28,374 @@
     "link": "https://oak.kribb.re.kr/handle/201005/7430"
   },
   {
-    "title": "",
-    "authors": [],
-    "journal": "Journal of Hepatology",
-    "year": 2005,
-    "link": ""
+    "title": "Epigenetic inactivation of protein kinase D1 in gastric cancer and its role in gastric cancer cell migration and invasion",
+    "authors": ["Mirang Kim", "Hay Ran Jang", "Jeong Hwan Kim", "S M Noh", "K S Song", "J S Cho", "H Y Jeong", "J C Norman", "P T Caswell", "G H Kang", "et al".],
+    "journal": "Carcinogenesis",
+    "year": 2008,
+    "link": "https://oak.kribb.re.kr/handle/201005/8343"
   },
   {
-    "title": "",
-    "authors": [],
-    "journal": "Journal of Hepatology",
-    "year": 2005,
-    "link": ""
+    "title": "Epigenetic down-regulation and suppressive role of DCBLD2 in gastric cancer cell proliferation and invasion",
+    "authors": ["Mirang Kim", "K T Lee", "Hay-Ran Jang", "Jeong Hwan Kim", "S M Noh", "K S Song", "J S Cho", "H Y Jeong", "Seon-Young Kim", "Hyang Sook Yoo", "et al."],
+    "journal": "Molecular Cancer Research",
+    "year": 2008,
+    "link": "https://oak.kribb.re.kr/handle/201005/8319"
+  },
+  {
+    "title": "CpG methylation in exon 1 of transcription factor 4 increases with age in normal gastric mucosa and is associated with gene silencing in intestinal-type gastric cancers",
+    "authors": ["Seung Kyoon Kim", "Hay Ran Jang", "Jeong Hwan Kim", "Mirang Kim", "S M Noh", "K S Song", "G H Kang", "H J Kim", "Seon-Young Kim", "Hyang Sook Yoo", "et al."],
+    "journal": "Carcinogenesis",
+    "year": 2008,
+    "link": "https://oak.kribb.re.kr/handle/201005/8537"
+  },
+  {
+    "title": "LRRC3B, encoding a leucine-rich repeat-containing protein, is a putative tumor suppressor gene in gastric cancer",
+    "authors": ["Mirang Kim", "Jeong Hwan Kim", "Hay Ran Jang", "Hwan Mook Kim", "Chang Woo Lee", "S M Noh", "K S Song", "J S Cho", "H Y Jeong", "Y Hahn", "et al."],
+    "journal": "Cancer Research",
+    "year": 2008,
+    "link": "https://oak.kribb.re.kr/handle/201005/8561"
+  },
+  {
+    "title": "Expression profiling of calcium induced genes in cultured human keratinocytes",
+    "authors": ["J S Lee", "Mirang Kim", "Nam-Soon Kim", "Yong Sung Kim", "J M Yang", "A Y Cho", "Y Lee", "C D Kim", "J H Lee"],
+    "journal": "Journal of Korean Medical Science",
+    "year": 2010,
+    "link": "https://oak.kribb.re.kr/handle/201005/9834"
+  },
+  {
+    "title": "Frequent silencing of popeye domain-containing genes, BVES and POPDC3, is associated with promoter hypermethylation in gastric cancer",
+    "authors": ["Mirang Kim", "H R Jang", "Kee-Ok Ham", "Tae-Wook Kang", "Jeong Hwan Kim", "Seon-Young Kim", "S M Noh", "K S Song", "J S Cho", "H Y Jeong", "et al."],
+    "journal": "Carcinogenesis",
+    "year": 2010,
+    "link": "https://oak.kribb.re.kr/handle/201005/9704"
+  },
+  {
+    "title": "Identification of DNA methylation markers for lineage commitment of in in vitro hepatogenesis",
+    "authors": ["Mirang Kim", "Tae-Wook Kang", "H C Lee", "Y M Han", "H Kim", "H D Shin", "H S Cheong", "D Lee", "Seon-Young Kim", "Yong Sung Kim"],
+    "journal": "Human Molecular Genetics,",
+    "year": 2011,
+    "link": "https://oak.kribb.re.kr/handle/201005/10171"
+  },
+  {
+    "title": "Epigenetic regulation of microRNA-10b and targeting of oncogenic MAPRE1 in gastric cancer",
+    "authors": ["Kwoneel Kim", "H C Lee", "Jong Lyul Park", "Mirang Kim", "Seon-Young Kim", "S M Noh", "K S Song", "J C Kim", "Yong Sung Kim"],
+    "journal": "Epigenetics",
+    "year": 2011,
+    "link": "https://oak.kribb.re.kr/handle/201005/10161"
+  },
+  {
+    "title": "Aberrant up-regulation of LAMB3 and LAMC2 by promoter demethylation in gastric cancer",
+    "authors": ["Oh Hyung Kwon", "Jong Lyul Park", "Mirang Kim", "Jeong Hwan Kim", "H C Lee", "Hee-Jin Kim", "S M Noh", "K S Song", "Hyang Sook Yoo", "S G Paik", "et al."],
+    "journal": "Biochemical and Biophysical Research Communications",
+    "year": 2011,
+    "link": "https://oak.kribb.re.kr/handle/201005/10071"
+  },
+  {
+    "title": "Human histone H3K79 methyltransferase DOT1L methyltransferase binds actively transcribing RNA polymerase II to regulate gene expression",
+    "authors": ["S K Kim", "I Jung", "H Lee", "K Kang", "Mirang Kim", "K Jeong", "C S Kwon", "Y M Han", "Yong Sung Kim", "D Kim", "et al."],
+    "journal": "ournal of Biological Chemistry",
+    "year": 2012,
+    "link": "https://oak.kribb.re.kr/handle/201005/11053"
+  },
+  {
+    "title": "Epigenetic alteration of CCDC67 and its tumor suppressor function in gastric cancer",
+    "authors": ["Sung Joon Park", "H R Jang", "Mirang Kim", "Jeong Hwan Kim", "Oh Hyung Kwon", "Jong Lyul Park", "S M Noh", "K S Song", "Seon-Young Kim", "Y H Kim", "et al."],
+    "journal": "Carcinogenesis",
+    "year": 2012,
+    "link": "https://oak.kribb.re.kr/handle/201005/10865"
+  },
+  {
+    "title": "H2B monoubiquitylation is a 5'-enriched active transcription mark and correlates with exon-intron structure in human cells",
+    "authors": ["I Jung", "S K Kim", "Mirang Kim", "Y M Han", "Yong Sung Kim", "D Kim", "D Lee"],
+    "journal": "Genome Research",
+    "year": 2012,
+    "link": "https://oak.kribb.re.kr/handle/201005/10756"
+  },
+  {
+    "title": "Identification of potential serum biomarkers for gastric cancer by a novel computational method, multiple normal tissues corrected differential analysis",
+    "authors": ["Mirang Kim", "H J Kim", "B Y Choi", "Jeong Hwan Kim", "K S Song", "S M Noh", "J C Kim", "D S Han", "Seon-Young Kim", "Yong Sung Kim"],
+    "journal": "Clinica Chimica Acta,",
+    "year": 2012,
+    "link": "https://oak.kribb.re.kr/handle/201005/10478"
+  },
+  {
+    "title": "Elevated fibroblast growth factor-inducible 14 expression promotes gastric cancer growth via nuclear factor-kB and is associated with poor patient outcome",
+    "authors": ["Oh Hyung Kwon", "Seong Joon Park", "Tae-Wook Kang", "Mirang Kim", "Jeong Hwan Kim", "S M Noh", "K S Song", "Hyang Sook Yoo", "Y Wang", "D Pocalyko", "et al."],
+    "journal": "Cancer Letters",
+    "year": 2012,
+    "link": "https://oak.kribb.re.kr/handle/201005/10437"
+  },
+  {
+    "title": "Pyruvate kinase M2 promotes the growth of gastric cancer cells via regulation of Bcl-xL expression at transcriptional level",
+    "authors": ["Oh Hyung Kwon", "T W Kang", "Jeong Hwan Kim", "Mirang Kim", "S M Noh", "K S Song", "Hyang Sook Yoo", "W H Kim", "Z Xie", "D Pocalyko", "et al."],
+    "journal": "Biochemical and Biophysical Research Communications",
+    "year": 2012,
+    "link": "https://oak.kribb.re.kr/handle/201005/10778"
+  },
+  {
+    "title": "Epigenetic silencing of BTB and CNC homology 2 and concerted promoter CpG methylation in gastric cancer",
+    "authors": ["Keeok Ham", "Hee Jin Kim", "K T Lee", "Jeong Hwan Kim", "MiRang Kim", "Seon-Young Kim", "S M Noh", "K S Song", "Yong Sung Kim"],
+    "journal": "Cancer Letters",
+    "year": 2014,
+    "link": "https://oak.kribb.re.kr/handle/201005/12084"
+  },
+  {
+    "title": "Dynamic changes in DNA methylation and hydroxymethylation when hES cells undergo differentiation toward a neuronal lineage",
+    "authors": ["MiRang Kim", "Y K Park", "T W Kang", "S H Lee", "Y H Rhee", "Jong Lyul Park", "D Lee", "D Lee", "Seon-Young Kim", "Yong Sung Kim"],
+    "journal": "Human Molecular Genetics",
+    "year": 2014,
+    "link": "https://oak.kribb.re.kr/handle/201005/11801"
+  },
+  {
+    "title": "Decrease of 5hmC in gastric cancers is associated with TET1 silencing due to with DNA methylation and bivalent histone marks at TET1 CpG island 3'-shore",
+    "authors": ["Jong Lyul Park", "Hee Jin Kim", "Eun Hye Seo", "Oh Hyung Kwon", "Byungho Lim", "Mirang Kim", "Seon-Young Kim", "K S Song", "G H Kang", "H J Kim", "et al."],
+    "journal": "Oncotarget",
+    "year": 2015,
+    "link": "https://oak.kribb.re.kr/handle/201005/12984"
+  },
+  {
+    "title": "Cell-free miR-27a, a potential diagnostic and prognostic biomarker for gastric cancer",
+    "authors": ["Jong Lyul Park", "Mirang Kim", "K S Song", "Seon-Young Kim", "Yong Sung Kim"],
+    "journal": "Genomics & Informatics",
+    "year": 2015,
+    "link": "https://oak.kribb.re.kr/handle/201005/12928"
+  },
+  {
+    "title": "Vitamin C facilitates dopamine neuron differentiation in fetal midbrain through TET1- and JMJD3-dependent epigenetic control manner",
+    "authors": ["X B He", "Mirang Kim", "Seon-Young Kim", "S H Yi", "Y H Rhee", "T Kim", "E H Lee", "C H Park", "S Dixit", "F E Harrison", "et al."],
+    "journal": "Stem Cells",
+    "year": 2015,
+    "link": "https://oak.kribb.re.kr/handle/201005/12540"
+  },
+  {
+    "title": "Genomic and epigenomic heterogeneity in molecular subtypes of gastric cancer",
+    "authors": ["Byungho Lim", "Jong Hwan Kim", "Mirang Kim", "Seon-Young Kim"],
+    "journal": "World Journal of Gastroenterology",
+    "year": 2016,
+    "link": "https://oak.kribb.re.kr/handle/201005/13102"
+  },
+  {
+    "title": "Specific expression and methylation of SLIT1, SLIT2, SLIT3, and miR-218 in gastric cancer subtypes",
+    "authors": ["Mirang Kim", "Jong Hwan Kim", "Su-Jin Baek", "Seon-Young Kim", "Yong Sung Kim"],
+    "journal": "International Journal of Oncology",
+    "year": 2016,
+    "link": "https://oak.kribb.re.kr/handle/201005/13241"
+  },
+  {
+    "title": "Integrated epigenomic analyses of enhancer as well as promoter regions in gastric cancer",
+    "authors": ["Su-Jin Baek", "Mirang Kim", "Dong-Hyuck Bae", "Jeong-Hwan Kim", "Hee-Jin Kim", "M E Han", "S O Oh", "Yong Sung Kim", "Seon-Young Kim"],
+    "journal": "Oncotarget",
+    "year": 2016,
+    "link": "https://oak.kribb.re.kr/handle/201005/13283"
+  },
+  {
+    "title": "DNA methylation: an epigenetic mark of cellular memory",
+    "authors": ["Mirang Kim", "J Costello"],
+    "journal": "Experimental and Molecular Medicine",
+    "year": 2017,
+    "link": "https://oak.kribb.re.kr/handle/201005/17126"
+  },
+  {
+    "title": "Cyclin Y-mediated transcript profiling reveals several important functional pathways regulated by Cyclin Y in hippocampal neurons",
+    "authors": ["I Seul Joe", "Jong Hwan Kim", "H Kim", "J H Hong", "Mirang Kim", "M Park"],
+    "journal": "PLoS One",
+    "year": 2017,
+    "link": "https://oak.kribb.re.kr/handle/201005/17045"
+  },
+  {
+    "title": "A late-lineage murine neutrophil precursor population exhibits dynamic changes during demand-adapted granulopoiesis",
+    "authors": ["M H Kim", "D Yang", "Mirang Kim", "Seon-Young Kim", "D Kim", "S J Kang"],
+    "journal": "Scientific Reports",
+    "year": 2017,
+    "link": "https://oak.kribb.re.kr/handle/201005/16980"
+  },
+  {
+    "title": "Dorsal and ventral hippocampus differentiate in functional pathways and differentially associate with neurological disease-related genes during postnatal development",
+    "authors": ["A R Lee", "Jong Hwan Kim", "E Cho", "Mirang Kim", "M Park"],
+    "journal": "Frontiers in Molecular Neuroscience",
+    "year": 2017,
+    "link": "https://oak.kribb.re.kr/handle/201005/17527"
+  },
+  {
+    "title": "Vitamin C promotes astrocyte differentiation through DNA hydroxymethylation",
+    "authors": ["Jong Hwan Kim", "Mirang Kim", "X B He", "N Wulansari", "Byoungha Yoon", "Dong Hyuck Bae", "NanHyung Huh", "Yong Sung Kim", "S H Lee", "Seon-Young Kim"],
+    "journal": "Stem Cells",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/18160"
+  },
+  {
+    "title": "A fluorescent chemical probe CDy9 selectively stains and enables the isolation of live naive mouse embryonic stem cells",
+    "authors": ["S J Cho", "K T Kim", "J S Kim", "Ok Seon Kwon", "Y H Go", "N Y Kang", "Haejeong Huh", "Mirang Kim", "D W Han", "Sung-Hwan Moon", "et al."],
+    "journal": "Biomaterials",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/18008"
+  },
+  {
+    "title": "Epigenetic silencing of miR-1271 enhances MEK1 and TEAD4 expression in gastric cancer",
+    "authors": ["B Lim", "Hee Jin Kim", "Haejeong Huh", "Nanhyung Huh", "Su Jin Baek", "Jong Hwan Kim", "Dong Hyuck Bae", "Eun Hye Seo", "S I Lee", "K S Song", "et al."],
+    "journal": "Cancer Medicine",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/18059"
+  },
+  {
+    "title": "Whole genome MBD-seq and RRBS analyses reveal that hypermethylation of gastrointestinal hormone receptors is associated with gastric carcinogenesis",
+    "authors": ["Hee Jin Kim", "Tae-Wook Kang", "Keeok Ham", "Mirang Kim", "Seon-Kyu Kim", "Seon-Young Kim", "S I Lee", "K S Song", "H Y Jeong", "Yong Sung Kim"],
+    "journal": "Experimental and Molecular Medicine",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/18247"
+  },
+  {
+    "title": "Dynamic transcriptome, DNA methylome, and DNA hydroxymethylome networks during T-cell lineage commitment",
+    "authors": ["Byoungha Yoon", "Mirang Kim", "M H Kim", "Hee Jin Kim", "Jeong Hwan Kim", "Jong Hwan Kim", "Jina Kim", "Yong Sung Kim", "D Lee", "S J Kang", "et al."],
+    "journal": "Molecules and Cells",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/18243"
+  },
+  {
+    "title": "Large-scale pharmacogenomics based drug discovery for ITGB3 dependent chemoresistance in mesenchymal lung cancer",
+    "authors": ["S K Hong", "H Lee", "Ok Seon Kwon", "N Y Song", "H J Lee", "S Kang", "Jeong Hwan Kim", "Mirang Kim", "W Kim", "H J Cha"],
+    "journal": "Molecular Cancer",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/18276"
+  },
+  {
+    "title": "Bcl-2-dependent synthetic lethal interaction of the IDF-11774 with the V0 subunit C of vacuolar ATPase (ATP6V0C) in colorectal cancer",
+    "authors": ["Bo Kyung Kim", "S W Nam", "B S Min", "Hyun Seung Ban", "S Paik", "K Lee", "Joo-Young Im", "Youngjoo Lee", "J T Park", "Seon-Young Kim", "et al."],
+    "journal": "British Journal of Cancer",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/18236"
+  },
+  {
+    "title": "Enhancer remodeling and microRNA alterations are associated with acquired resistance to ALK inhibitors",
+    "authors": ["M R Yun", "S M Lim", "Seon-Kyu Kim", "H M Choi", "K H Pyo", "S K Kim", "J M Lee", "Y W Lee", "J W Choi", "H R Kim", "et al."],
+    "journal": "Cancer Research",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/17940"
+  },
+  {
+    "title": "Inflammation induces two types of inflammatory dendritic cells in inflamed lymph nodes",
+    "authors": ["J Min", "D Yang Sung", "Mirang Kim", "Keeok Haam", "A Yoo", "J H Choi", "B U Schraml", "Yong Sung Kim", "D Kim", "S J Kang"],
+    "journal": "Experimental and Molecular Medicine",
+    "year": 2018,
+    "link": "https://oak.kribb.re.kr/handle/201005/17760"
+  },
+  {
+    "title": "DNA methylation: a cause and consequence of type 2 diabetes",
+    "authors": ["Mirang Kim"],
+    "journal": "Genomics & Informatics",
+    "year": 2019,
+    "link": "https://oak.kribb.re.kr/handle/201005/19254"
+  },
+  {
+    "title": "Investigation of gene expression and DNA methylation from seven different brain regions of a crab-eating monkey as determined by RNA-Seq and whole-genome bisulfite sequencing",
+    "authors": ["Won-Jun Lim", "Kyoung Hyoun Kim", "Jae-Yoon Kim", "Hee Jin Kim", "Mirang Kim", "Jong Lyul Park", "S Yoon", "J H Oh", "J W Cho", "Yong Sung Kim", "et al."],
+    "journal": "Frontiers in Genetics",
+    "year": 2019,
+    "link": "https://oak.kribb.re.kr/handle/201005/18933"
+  },
+  {
+    "title": "PRMT1 is required for the maintenance of mature β-cell identity",
+    "authors": ["H Kim", "Byoungha Yoon", "C M Oh", "J Lee", "K Lee", "H Song", "E Kim", "K Yi", "M Y Kim", "H Kim", "et al."],
+    "journal": "Diabetes",
+    "year": 2020,
+    "link": "https://oak.kribb.re.kr/handle/201005/19371"
+  },
+  {
+    "title": "Methylation of the CDX2 promoter in H. pylori-infected gastric mucosa increases with age and its rapid demethylation in gastric tumors is associated with upregulated gene expression",
+    "authors": ["Hee Jin Kim", "Eun Hye Seo", "Dong Hyuck Bae", "Keeok Haam", "Hae-Ran Jang", "Jong Lyul Park", "Jeong Hwan Kim", "Mirang Kim", "Seon-Young Kim", "H Y Jeong", "et al."],
+    "journal": "Carcinogenesis",
+    "year": 2020,
+    "link": "https://oak.kribb.re.kr/handle/201005/22997"
+  },
+  {
+    "title": "Connectivity map-based drug repositioning of bortezomib to reverse the metastatic effect of GALNT14 in lung cancer",
+    "authors": ["Ok Seon Kwon", "H Lee", "H J Kong", "E J Kwon", "J E Park", "W Lee", "S Kang", "Mirang Kim", "W Kim", "H J Cha"],
+    "journal": "Oncogene",
+    "year": 2020,
+    "link": "https://oak.kribb.re.kr/handle/201005/22799"
+  },
+  {
+    "title": "EZH2 as a potential target for NAFLD therapy",
+    "authors": ["Hyunjung Lim", "Mirang Kim"],
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2020,
+    "link": "https://oak.kribb.re.kr/handle/201005/23639"
+  },
+  {
+    "title": "Protein arginine methyltransferase 1 is essential for the meiosis of male germ cells",
+    "authors": ["S Waseem", "S Kumar", "K Lee", "Byoungha Yoon", "Mirang Kim", "H Kim", "K Lee"],
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2021,
+    "link": "https://oak.kribb.re.kr/handle/201005/24621"
+  },
+  {
+    "title": "STK31 upregulation is associated with chromatin remodeling in gastric cancer and induction of tumorigenicity in a xenograft mouse model",
+    "authors": ["Dong Hyuck Bae", "Hee Jin Kim", "Byoungha Yoon", "Jong Lyul Park", "Mirang Kim", "Seon-Kyu Kim", "Seon-Young Kim", "S I Lee", "K S Song", "Yong Sung Kim"],
+    "journal": "Oncology Reports,",
+    "year": 2021,
+    "link": "https://oak.kribb.re.kr/handle/201005/24118"
+  },
+  {
+    "title": "DNA methylome and single-cell transcriptome analyses reveal CDA as a potential druggable target for ALK inhibitor-resistant lung cancer therapy",
+    "authors": ["Haejeong Heo", "Jong-Hwan Kim", "Hyun Jung Lim", "Jeong Hwan Kim", "M Kim", "J Koh", "Joo-Young Im", "Bo Kyung Kim", "Mi Sun Won", "Ji Hwan Park", "et al."],
+    "journal": "Experimental and Molecular Medicine",
+    "year": 2022,
+    "link": "https://oak.kribb.re.kr/handle/201005/30302"
+  },
+  {
+    "title": "Aberrant methylation of somatostatin receptor 2 gene is initiated in aged gastric mucosa infected with Helicobacter pylori and consequential gene silencing is associated with establishment of inflammatory microenvironment In vitro study",
+    "authors": ["Hee Jin Kim", "Jong Lyul Park", "Byoung-Ha Yoon", "Keeok Haam", "Haejeong Heo", "Jong-Hwan Kim", "Seon-Young Kim", "Mirang Kim", "W H Kim", "S I Lee", "et al."],
+    "journal": "Cancers",
+    "year": 2022,
+    "link": "https://oak.kribb.re.kr/handle/201005/30750"
+  },
+  {
+    "title": "Intermediate cells of in vitro cellular reprogramming and in vivo tissue regeneration require desmoplakin",
+    "authors": ["Jeongmin Ha", "B S Kim", "Byungkuk Min", "Juhyeon Nam", "Jae-Geun Lee", "Minhyung Lee", "Byoung-Ha Yoon", "Y H Choi", "I Im", "Jung Sun Park", "et al."],
+    "journal": "Science Advances",
+    "year": 2022,
+    "link": "https://oak.kribb.re.kr/handle/201005/30520"
+  },
+  {
+    "title": "Epigenetic activation of Tensin 4 promotes gastric cancer progression",
+    "authors": ["Haejeong Heo", "Hee Jin Kim", "Keeok Haam", "Hyun Ahm Sohn", "Yang-Ji Shin", "Hanyong Go", "Hyo-Jung Jung", "Jong-Hwan Kim", "S I Lee", "K S Song", "et al."],
+    "journal": "Molecules and Cells",
+    "year": 2023,
+    "link": "https://oak.kribb.re.kr/handle/201005/31740"
+  },
+  {
+    "title": "The infusion of ex vivo, interleukin-15 and -21-activated donor NK cells after haploidentical HCT in high-risk AML and MDS patients-a randomized trial",
+    "authors": ["K H Lee", "Suk Ran Yoon", "J R Gong", "E J Choi", "H S Kim", "C J Park", "S C Yun", "Soo-Yeon Park", "Sol Ji Jung", "Hanna Kim", "et al."],
+    "journal": "Leukemia",
+    "year": 2023,
+    "link": "https://oak.kribb.re.kr/handle/201005/31590"
+  },
+  {
+    "title": "Cyclin Y regulates spatial learning and memory flexibility through distinct control of the actin pathway",
+    "authors": ["J Seo", "H Hwang", "H Sohn", "E Cho", "S Jung", "S Kim", "S M Um", "J Y Kim", "M Kang", "Y Choi", "et al."],
+    "journal": "Molecular Psychiatry",
+    "year": 2023,
+    "link": "https://oak.kribb.re.kr/handle/201005/31042"
+  },
+  {
+    "title": "DNA methylome analysis reveals epigenetic alteration of complement genes in advanced metabolic dysfunction-associated steatotic liver disease",
+    "authors": ["Amal Magdy", "Hee Jin Kim", "Hanyong Go", "Jun Min Lee", "Hyun Ahm Sohn", "Keeok Haam", "Hyo-Jung Jung", "Jong Lyul Park", "T Yoo", "Eun-Soo Kwon", "et al."],
+    "journal": "Clinical and Molecular Hepatology,",
+    "year": 2024,
+    "link": "https://oak.kribb.re.kr/handle/201005/36246"
+  },
+  {
+    "title": "Correspondence on Letter regarding A complement to epigenetics in MASLD",
+    "authors": ["Amal Magdy", "Hee Jin Kim", "W Kim", "Mirang Kim"],
+    "journal": "Clinical and Molecular Hepatology",
+    "year": 2025,
+    "link": "https://oak.kribb.re.kr/handle/201005/36609"
+  },
+  {
+    "title": "Integrative transcriptomic analysis identifies emetine as a promising candidate for overcoming acquired resistance to ALK inhibitors in lung cancer",
+    "authors": ["S M Park", "Keeok Haam", "Haejeong Heo", "D Kim", "M J Kim", "Hyo-Jung Jung", "S Cha", "Mirang Kim", "H Lee"],
+    "journal": "Molecular Oncology",
+    "year": 2025,
+    "link": "https://oak.kribb.re.kr/handle/201005/37691"
   }
 ]

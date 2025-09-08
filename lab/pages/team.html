@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team | Epigenome Lab</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+  <!-- fullPage.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <a href="../index.html"><img src="../assets/images/logo_black.png" alt="Lab Logo"></a>
+      <span>Epigenome Lab</span>
+    </div>
+    <nav>
+      <div class="dropdown">
+        <a href="../pages/team.html">Team</a>
+        <div class="dropdown-content">
+          <a href="#professor">Professor</a>
+        </div>
+      </div>
+      <a href="../pages/publications/journals.html">Publication</a>
+      <a href="../pages/projects.html">Project</a>
+      <a href="../pages/contacts.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Fullpage Sections -->
+  <main id="fullpage">
+    <!-- Section 1: Our Team -->
+    <div class="section" data-anchor="team">
+      <div class="hero-text">
+        <img src="../assets/images/team.jpg" alt="Lab Team" style="width:100%; border-radius:12px;">
+        <h1>Our Team</h1>
+      </div>
+    </div>
+
+    <!-- Section 2: Professor -->
+    <div class="section" data-anchor="professor">
+      <h1>Professor</h1>
+      <div id="professor-list" class="team-container"></div>
+    </div>
+
+    <!-- Section 3: Our Interest -->
+    <div class="section" data-anchor="interest">
+      <h1>Our Interest</h1>
+      <div class="interest-box">
+        <div class="interest-card"></div>
+        <div class="interest-card"></div>
+        <div class="interest-card"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+  <script>
+    // fullPage.js 초기화
+    new fullpage('#fullpage', {
+      anchors: ['team','professor','interest'],
+      navigation: true,
+      navigationPosition: 'right'
+    });
+
+    // 교수님 데이터 불러오기
+    fetch("../data/professors.json")
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("professor-list");
+        data.forEach(prof => {
+          const box = document.createElement("div");
+          box.className = "professor-box";
+          box.innerHTML = `
+            <img src="../${prof.image}" alt="${prof.name}" class="prof-img">
+            <div class="prof-info">
+              <h2>${prof.name}</h2>
+              <p><strong>${prof.title}</strong></p>
+              <p><strong>Education:</strong> ${prof.education.join(", ")}</p>
+              <p><strong>Experience:</strong> ${prof.experience}</p>
+            </div>
+          `;
+          container.appendChild(box);
+        });
+      });
+  </script>
+</body>
+</html>
