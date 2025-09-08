@@ -199,3 +199,69 @@ body, html {
 .interest-card:hover {
   transform: translateY(-5px);
 }
+
+/* Journals Section */
+.journals-section {
+  background: #f4f4f4;
+  min-height: 100vh;
+  padding: 100px 40px;
+}
+
+.journals-section h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.journals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.journal-card {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.journal-card:hover {
+  transform: translateY(-4px);
+}
+
+.journal-card .journal-info {
+  max-width: 75%;
+}
+
+.journal-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #222;
+}
+
+.journal-card .authors {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.journal-card .meta {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.journal-card .journal-link a {
+  color: #3366cc;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.journal-card .journal-link a:hover {
+  text-decoration: underline;
+}
