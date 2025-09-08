@@ -12,5 +12,26 @@
     "year": 1,
     "email": "park@univ.ac.kr",
     "image": "assets/images/students/park.jpg"
+  },
+  {
+    "name": "Hong GilDong",
+    "degree": "PhD",
+    "year": 3,
+    "email": "hong@univ.ac.kr",
+    "image": "assets/images/students/hong.jpg"
+  },
+  {
+    "name": "Kim Minsoo",
+    "degree": "Master",
+    "year": 1,
+    "email": "kim@univ.ac.kr",
+    "image": "assets/images/students/minsoo.jpg"
+  },
+  {
+    "name": "Seo Younghee",
+    "degree": "PhD",
+    "year": 3,
+    "email": "seo@univ.ac.kr",
+    "image": "assets/images/students/seo.jpg"
   }
 ]

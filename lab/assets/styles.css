@@ -1,3 +1,4 @@
+/* === 기본 레이아웃 === */
 body, html {
   margin: 0;
   padding: 0;
@@ -15,12 +16,20 @@ body, html {
   padding: 60px;
   position: relative;
 }
+
 .hero-text {
   width: 100%;
-  text-align: left;      /* 텍스트를 왼쪽 정렬 */
-  padding-left: 80px;    /* 왼쪽에서 띄우기 */
+  text-align: left;      /* 텍스트 왼쪽 정렬 */
+  padding-left: 80px;    /* 왼쪽 여백 */
 }
 
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* === Navbar === */
 .navbar {
   position: fixed;
   top: 20px;
@@ -49,15 +58,64 @@ body, html {
   transition: color 0.3s ease;
 }
 
-.hero-text h1 {
-  font-size: 4rem;
-  font-weight: bold;
-  color: #fff;
+/* 메뉴 리스트 */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s;
+}
+
+/* === Dropdown === */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 150px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  z-index: 200;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.dropdown-content a:hover {
+  background: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* === Content Box === */
 .content-box {
   max-width: 800px;
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   color: #000;
   padding: 30px;
   border-radius: 15px;
@@ -67,7 +125,7 @@ body, html {
   display: flex;
   align-items: center;
   gap: 30px;
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   color: #000;
   padding: 40px;
   border-radius: 15px;
@@ -94,7 +152,7 @@ body, html {
 
 .contact-box {
   max-width: 600px;
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   color: #000;
   padding: 30px;
   border-radius: 15px;
@@ -105,56 +163,34 @@ body, html {
   margin: 0 10px;
 }
 
-/* Navbar 메뉴 */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-.menu li {
-  position: relative;
-}
-.menu a {
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  transition: color 0.3s;
+/* === Member Cards === */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-/* Dropdown 스타일 초기화 */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: white;
-  min-width: 150px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  border-radius: 4px;
-  z-index: 200;
-
-  /* ← 기본 여백 제거 */
-  margin: 0;
-  padding: 0;
+.member-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.dropdown-content li {
-  list-style: none;
-  margin: 0;   /* ← 여백 제거 */
-  padding: 0;  /* ← 여백 제거 */
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.dropdown-content a {
-  color: black !important;
-  padding: 10px 15px;
-  display: block;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-
-.dropdown-content a:hover {
-  background: #f0f0f0;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
+.member-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
 }

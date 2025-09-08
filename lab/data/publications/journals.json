@@ -1,16 +1,44 @@
 [
   {
-    "title": "Epigenetic regulation in cancer cells",
-    "authors": ["Kim M.", "Lee Y.", "Park M."],
-    "journal": "Nature Genetics",
-    "year": 2022,
-    "link": "https://doi.org/xxxx"
+    "title": "Transcriptome analysis of human gastric cancer",
+    "authors": ["Jung Hwa Oh", "Jin Ok Yang", "Y Hahn", "Mirang Kim", "Sang-Soon Byun", "Jeo-Jin Jeon", "Jeong-Min Kim", "K S Song", "S M Noh", "S Kim", "et al."],
+    "journal": "Mammalian Genome",
+    "year": 2005,
+    "link": "https://oak.kribb.re.kr/handle/201005/7227"
   },
   {
-    "title": "Genome-wide analysis of methylation patterns",
-    "authors": ["Choi H.", "Jung M."],
-    "journal": "Cell Reports",
-    "year": 2023,
-    "link": "https://doi.org/yyyy"
+    "title": "Gender-dependent hepatic alterations in H-ras12V transgenic mice",
+    "authors": ["Ai Guo Wang", "H B Moon", "Mi Ran Lee", "Cha Young Hwang", "Ki Sun Kwon", "Seong Lan Yu", "Yong Sung Kim", "Mirang Kim", "J M Kim", "S K Kim", "et al."],
+    "journal": "Journal of Hepatology",
+    "year": 2005,
+    "link": "https://oak.kribb.re.kr/handle/201005/7113"
+  },
+  {
+    "title": "The epigenetic silencing of LIMS2 in gastric cancer and its inhibitory effect on cell migration",
+    "authors": ["Seung Kyoon Kim", "Hae-Ran Jang", "Jeong Hwan Kim", "S M Noh", "K S Song", "Mirang Kim", "Seon-Young Kim", "Young Il Yeom", "Nam-Soon Kim", "Hyang Sook Yoo", "et al."],
+    "journal": "Biochemical and Biophysical Research Communications",
+    "year": 2006,
+    "link": "https://oak.kribb.re.kr/handle/201005/7572"
+  },
+  {
+    "title": "Identification of intrahepatic cholangiocarcinoma related genes by comparison with normal liver tissues using expressed sequence tags",
+    "authors": ["A G Wang", "S Y Yoon", "J H Oh", "Yeo-Jin Jeon", "Mirang Kim", "J M Kim", "Sang-Soon Byun", "Jin Ok Yang", "J H Kim", "D G Kim", "et al."],
+    "journal": "Biochemical and Biophysical Research Communications",
+    "year": 2006,
+    "link": "https://oak.kribb.re.kr/handle/201005/7430"
+  },
+  {
+    "title": "",
+    "authors": [],
+    "journal": "Journal of Hepatology",
+    "year": 2005,
+    "link": ""
+  },
+  {
+    "title": "",
+    "authors": [],
+    "journal": "Journal of Hepatology",
+    "year": 2005,
+    "link": ""
   }
 ]
