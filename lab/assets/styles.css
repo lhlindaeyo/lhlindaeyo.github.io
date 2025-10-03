@@ -37,9 +37,15 @@ body, html {
   left: 40px;
   right: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* 좌측 로고, 우측 메뉴 */
   align-items: center;
   z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(255,255,255,0.8);
+  backdrop-filter: blur(6px);
 }
 
 .navbar .logo {
@@ -52,22 +58,33 @@ body, html {
   height: 40px;
 }
 
-.navbar nav a {
-  margin-left: 20px;
+/* 메뉴 가로 정렬 */
+.menu {
+  list-style: none;   /* 불릿 제거 */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
   text-decoration: none;
   font-weight: bold;
   color: #000;
   transition: color 0.3s ease;
 }
 
-.navbar nav a:hover {
+.menu a:hover {
   color: #0033cc;
 }
 
 /* === Dropdown === */
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -96,16 +113,6 @@ body, html {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.menu {
-  list-style: none;   /* 불릿(쩜쩜) 제거 */
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  list-style: none;   /* li에도 적용 */
 }
 
 /* === Content Box === */
@@ -184,9 +191,15 @@ body, html {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.contact-box .icons span {
+.contact-box .icons i {
   font-size: 2rem;
   margin: 0 10px;
+  color: #0033cc;
+  transition: color 0.3s;
+}
+
+.contact-box .icons i:hover {
+  color: #001f80;
 }
 
 /* === Interest Section === */
