@@ -98,6 +98,16 @@ body, html {
   display: block;
 }
 
+.menu {
+  list-style: none;   /* 불릿(쩜쩜) 제거 */
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  list-style: none;   /* li에도 적용 */
+}
+
 /* === Content Box === */
 .content-box {
   max-width: 800px;
